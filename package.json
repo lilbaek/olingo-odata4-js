@@ -1,6 +1,6 @@
 {
   "name": "ts-odata-metadata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "postfix": "",
   "releaseCandidate": "",
   "title": "Metadata parsing for OData (Fork of Olingo OData Client for TypeScript)",
