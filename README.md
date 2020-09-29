@@ -23,10 +23,10 @@ This library supports only the OData V4 protocol.
 
 The package can be installed via npm:
 ```
-npm install --save ts-odatajs
+npm install --save ts-odata-metadata
 ```
 
 To use with TypeScript, import into your component:
 ```
-import { metadataParser } from 'ts-odatajs';
+import {metadataParser} from 'ts-odata-metadata/lib/odata/metadata';
 ```
