@@ -25,17 +25,8 @@ odatajs.version = {
     build: 2
 };
 
-// core stuff, alway needed
-odatajs.deferred = require('./lib/deferred.js');
-odatajs.utils = require('./lib/utils.js');
-
 // only neede for xml metadata
 odatajs.xml = require('./lib/xml.js');
-
-// only need in browser case
-odatajs.oData = require('./lib/odata.js');
-odatajs.store = require('./lib/store.js');
-odatajs.cache = require('./lib/cache.js');
 
 if (odatajs.utils.inBrowser()) {
     //expose to browsers window object

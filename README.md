@@ -16,18 +16,10 @@ specific language governing permissions and limitations
 under the License.
 
 -------------------------
-## Olingo OData Client for JavaScript (and TypeScript)
-The Olingo OData Client for JavaScript (odatajs) is a library written in JavaScript that enables browser based frontend applications to easily use the OData protocol for communication with application servers. Typings for TypeScript have been added to support use within TypeScript.
+## Metadata parsing for OData (Fork of Olingo OData Client for TypeScript)
+This lib is a fork of the Olingo OData Client to only include the metadata parsing.
 
-This library "odatajs-4.0.6.min.js" supports only the OData V4 protocol.
-
-For using the OData protocols V1-V3 please refer to the [datajs library](http://datajs.codeplex.com/)
-
-The odatajs library can be included in any html page with the script tag (for example)
-```
-<script type="text/javascript" src="./dist/odatajs-4.0.6.min.js"></script>
-```
-Its features can be used through the `odatajs` namespace, `window.odatajs`, or `ts-odatajs` (using TypeScript). The odatajs library can be used together with the datajs library which uses the `window.OData` namespace.
+This library supports only the OData V4 protocol.
 
 The package can be installed via npm:
 ```
@@ -36,14 +28,5 @@ npm install --save ts-odatajs
 
 To use with TypeScript, import into your component:
 ```
-import { cache, deferred, oData, store, utils, version, xml } from 'ts-odatajs';
+import { metadataParser } from 'ts-odatajs';
 ```
-
-For API documentation please see [ODatajs API documentation](http://olingo.apache.org/doc/javascript/apidoc/)
-
-You may also use the documentation and the samples from the [datajs library](http://datajs.codeplex.com/documentation) because the features and API are similar.
-
-## Contribute to Olingo OData Client for JavaScript
-If you are interested to contribute to this library please have a look into [Project setup](http://olingo.apache.org/doc/javascript/project-setup.html) and [Build instructions](http://olingo.apache.org/doc/javascript/project-build.html) where you find a manual how you can download the source code and build the odatajs library.
-
-If you intend so please also join the [Olingo developers group](http://olingo.apache.org/support.html) for discussion.

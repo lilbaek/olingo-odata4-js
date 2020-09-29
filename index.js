@@ -21,13 +21,7 @@
 exports.version = { major: 4, minor: 0, build: 6 };
 
 // core stuff, always needed
-exports.deferred = require('./lib/deferred.js');
 exports.utils = require('./lib/utils.js');
 
 // only needed for xml metadata 
 exports.xml = require('./lib/xml.js');
-
-// only need in browser case
-exports.oData = require('./lib/odata.js');
-exports.store = require('./lib/store.js');
-exports.cache = require('./lib/cache.js');

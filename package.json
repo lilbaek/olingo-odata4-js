@@ -1,17 +1,17 @@
 {
-  "name": "ts-odatajs",
-  "version": "4.0.6",
+  "name": "ts-odata-metadata",
+  "version": "1.0.0",
   "postfix": "",
   "releaseCandidate": "",
-  "title": "Olingo OData Client for TypeScript",
-  "description": "The Olingo OData Client for JavaScript (and TypeScript) is a new cross-browser library that enables data-centric web applications by leveraging modern protocols such as JSON and OData and HTML5-enabled browser features. It's designed to be small, fast and easy to use. Contains typings for use with TypeScript.",
+  "title": "Metadata parsing for OData (Fork of Olingo OData Client for TypeScript)",
+  "description": "This lib is a fork of the Olingo OData Client to only include the metadata parsing",
   "license": "Apache-2.0",
-  "homepage": "http://olingo.apache.org",
+  "homepage": "https://github.com/lilbaek/olingo-odata4-js",
   "main": "index.js",
   "main-browser": "index-browser.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tschettler/olingo-odata4-js.git"
+    "url": "https://github.com/lilbaek/olingo-odata4-js.git"
   },
   "engines": {
     "node": ">= 0.12.0"
@@ -36,7 +36,7 @@
   ],
   "scripts": {},
   "dependencies": {
-    "xmldom": "0.1.19"
+    "xmldom": "0.3.0"
   },
   "devDependencies": {
     "async": "^2.3.0",
@@ -60,8 +60,6 @@
   "typings": "index.d.ts",
   "keywords": [
     "odata",
-    "odatajs",
-    "olingo",
     "typescript"
   ]
 }
